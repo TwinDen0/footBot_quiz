@@ -43,13 +43,13 @@ a {
 }
 
 .header-text {
+    padding-left: 10px;
     padding-bottom: 2vh;
 
     font-family: var(--roboto);
     font-style: italic;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: clamp(14px, 5vw, 20px);
 
     color: rgba(57, 57, 57, 1);
 }
@@ -70,7 +70,7 @@ a {
 
     position: absolute;
     top: -15px;
-    left: -10px;
+    left: -20px;
     z-index: 2;
 }
 
