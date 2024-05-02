@@ -1,0 +1,51 @@
+:root {
+    --roboto: "Roboto", sans-serif;
+    --inter: "Inter", sans-serif;
+    --rubik_mono_one: "Rubik Mono One", sans-serif;
+    --bebas_neue: "Bebas Neue", sans-serif;
+
+    --w-container: 365px;
+
+}
+
+html, body{
+    height: 100vh;
+}
+
+body {
+    font-family: var(--roboto);
+
+    background: linear-gradient(to bottom, #ffffff, #EFF0FC);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*
+    font-family: "Inter", sans-serif;
+    font-family: "Rubik Mono One", monospace;
+    font-family: "Bebas Neue", sans-serif;
+    */
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--w-container);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-text {
+    font-family: var(--roboto);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: rgba(57, 57, 57, 1);
+}
+

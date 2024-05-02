@@ -1,45 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Simple Quiz</title>
-	<link rel="stylesheet" href="./main.css" />
+	<title>FootBot Quiz</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/normalize.min.css">
+
+	<link rel="stylesheet" href="styles/style.css" />
+
 </head>
 <body>
+	<div class="container">
+		<header class="header" id="header">
+			<h1 class="header-text">Мой профиль</h1>
+		</header>
 
-	<div class="quiz" id="quiz">
+		<div class="club-card" id="club-card">
 
-		<div class="quiz-header" id="header">
-			<!-- Заголовок вопроса -->
-			<h2 class="title">Загружаем вопрос...</h2>
+			<div class="club-logo" id="club-logo">
+			</div>
 
-			<!-- Результаты викторины -->
-			<h2 class="title">%title%</h2>
-			<h3 class="summary">%message%</h3>
-			<p class="result">%result%</p>
+			<div class="club-text" id="club-text">
+				<!-- Заголовок вопроса -->
+				<h2 class="title" id="club-name">Барселона</h2>
+
+				<!-- Результаты викторины -->
+				<h3 class="all-win">Всего побед:  %all-win%</h3>
+				<h3 class="all-lose">Поражений:  %all-lose%</h3>
+			</div>		
 		</div>
 
-		<ul class="quiz-list" id="list">
-			<li>
-				<label>
-					<input type="radio" class="answer" name="answer" />
-					<span>Ответ...</span>
-				</label>
-			</li>
-			<li>
-				<label>
-					<input type="radio" class="answer" name="answer" />
-					<span>Ответ...</span>
-				</label>
-			</li>
-		</ul>
+		
+		<div class="club-inf" id="club-inf">
+			<div class="colomn-one" id="colomn-one">
+				<h2 class="titles-numb">1 🏆</h2>
+				<h3 class="titles-text">титулов</h3>
+			</div>
 
-		<button class="quiz-submit submit" id="submit">Ответить</button>
+			<div class="colomn-two" id="colomn-two">
+				<h2 class="budget-numb">100кк💲</h2>
+				<h3 class="budget-text">бюджет</h3>
+			</div>
 
+			<div class="colomn-tree" id="colomn-tree">
+				<h2 class="place-numb">#1</h2>
+				<h3 class="place-text">место в лиге</h3>
+			</div>
+		</div>
+
+		<div class="btns" id="btns">
+			<button class="go_league" id="go_league">Перейти к лиге</button>
+
+			<button class="new_league" id="new_league">Начать новую лигу</button>
+
+			<button class="go_tour" id="go_tour">Участвовать в турнире</button>
+		</div>	
+
+		<div class="btns-two" id="btns-two">
+			<div class="colomn-btn-one" id="colomn-btn-one">
+				<button class="squad-btn" id="squad-btn"> ... </button>
+				<h3 class="squad-text">состав</h3>
+			</div>
+
+			<div class="colomn-btn-two" id="colomn-btn-two">
+				<button class="transfer-btn" id="transfer-btn"> ... </button>
+				<h3 class="transfer-text">трансф. рынок</h3>
+			</div>
+
+			<div class="colomn-btn-tree" id="colomn-btn-tree">
+				<button class="awards-btn" id="awards-btn"> ... </button>
+				<h3 class="awards-text">награды</h3>
+			</div>
+
+			<div class="colomn-btn-four" id="colomn-btn-four">
+				<button class="change-btn" id="change-btn"> ... </button>
+				<h3 class="change-text">изменить клуб</h3>
+			</div>
+		</div>	
 	</div>
-
-	<script src="./main.js"></script>
+	<!--<script src="./main.js"></script>-->
 </body>
 </html>
