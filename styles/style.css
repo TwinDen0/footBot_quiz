@@ -146,11 +146,9 @@ a {
 }
 
 .club-inf h2 {
-    
     margin-top: 10px;
     
     font-size: 24px;
-    line-height: 28px;
     text-align: center;
     color: #393939;
 }
@@ -178,7 +176,6 @@ a {
 
     max-width: 90px;
 
-
     color: #BCB9CD;
 }
 
@@ -196,8 +193,6 @@ a {
     display: flex;
     flex-direction: column;
 }
-
-
 
 
 
@@ -241,4 +236,84 @@ a {
 .btns-two {
     display: flex;
     flex-direction: row;
+
+    width: 85%;
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btns-two h3 {
+    margin: 10px auto;
+    max-width: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    width: 500px;
+
+    color: #393939;
+}
+
+.colomn-btn-two {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px auto;
+}
+
+.btn-two {
+    background-color: #FFFFFF;
+    border: 1.55391px solid #EFEFEF;
+    box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+
+    height: 55px;
+    width: 55px;
+}
+
+.btn-two_squad {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/squad_img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.btn-two_transfer {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/trans_img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.btn-two_awards {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/tropf_img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65% 65%;
+}
+
+.btn-two_change {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/pencil_img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65% 65%;
 }
