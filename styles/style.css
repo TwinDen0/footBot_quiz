@@ -44,7 +44,6 @@ a {
 
 .header-text {
     padding-left: 10px;
-    padding-bottom: 2vh;
 
     font-family: var(--roboto);
     font-style: italic;
@@ -61,6 +60,7 @@ a {
 
 
 .club-logo {
+
     width: 170px;
     height: 170px;
 
@@ -73,6 +73,8 @@ a {
     left: -20px;
     z-index: 2;
 }
+
+
 
 .club-text {
 
