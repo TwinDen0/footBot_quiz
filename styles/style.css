@@ -33,13 +33,19 @@ a {
 }
 
 .container {
+    padding-top: 20px;
+
     width: 100%;
     max-width: var(--w-container);
     margin: 0 auto;
     box-sizing: border-box;
+
+    height: 100vh;
 }
 
 .header-text {
+    padding-bottom: 2vh;
+
     font-family: var(--roboto);
     font-style: italic;
     font-weight: 600;
@@ -49,3 +55,71 @@ a {
     color: rgba(57, 57, 57, 1);
 }
 
+
+.club-card {
+    position: relative;
+}
+
+
+.club-logo {
+    width: 170px;
+    height: 170px;
+
+    background-image: url(../images/logo/logo_1.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    z-index: 2;
+}
+
+.club-text {
+    background-image: url(../images/img_club-card.png);
+    background-size:100% 100%;
+
+    width: 332px; 
+    height: 159px;
+
+    border-radius: 17.2656px;
+    box-shadow: 0px 39px 36.7px -29px #9D6FE7;
+}
+
+.logo {
+    width: 100px; /* задайте нужную ширину для логотипа */
+    height: auto;
+}
+
+.club-name {
+    padding: 35px 0px 0px 152px;
+    margin-bottom: 10px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.all-win, .all-lose {
+    padding-left: 150px;
+    margin: 2px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18.1743px;
+    line-height: 21px;
+
+    background: linear-gradient(90deg, #ECE1FF 70%, #B48BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-shadow: 0px 3.20262px 4.27015px rgba(0, 0, 0, 0.25);
+}
