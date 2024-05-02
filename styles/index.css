@@ -1,3 +1,6 @@
+.body {
+    background: linear-gradient(to bottom, #ffffff, #EFF0FC);
+}
 
 .header-text {
     padding-top: 5px;

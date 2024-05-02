@@ -9,13 +9,11 @@
 }
 
 html, body{
-    height: 90vh;
+    height: 100vh;
 }
 
 body {
     font-family: var(--roboto);
-
-    background: linear-gradient(to bottom, #ffffff, #EFF0FC);
 
     display: flex;
     align-items: center;
