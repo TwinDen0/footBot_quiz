@@ -99,9 +99,21 @@
 }
 
 
-.logo_team {
+.logo_t1 {
     height: 60px;
     width: 60px;
+
+    background-image: url(../images/logo/logo_1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo_t2 {
+    height: 60px;
+    width: 60px;
+    
+    background-image: url(../images/logo/logo_1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
