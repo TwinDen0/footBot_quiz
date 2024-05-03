@@ -61,7 +61,7 @@
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 17px;
     /* identical to box height */
     text-align: center;
@@ -146,13 +146,20 @@
     align-items: center;
     justify-content: center;
 
-    margin-top: 8px;
+    margin: 8px;
+    padding: 0 15px 0 15px;
+}
+  
 
+.stripe {
+    display: inline-block;
+    height: 5px;
+    
+    border-radius: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.stripe {
-    height: 5px;
-    
-    border-radius: 5px;
+.stripe:not(:last-child) {
+    margin-right: -4px;
 }
+    
