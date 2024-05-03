@@ -80,8 +80,10 @@
 }
 
 .done {
-
     display: block;
+
+    margin: auto;
+    padding: 7px 7px;
     
     width: 100%;
     max-width: 130px;
@@ -95,16 +97,10 @@
     color: #FFFFFF;
     
     border: 2px solid #00A310;
-
-
     background: linear-gradient(180deg, #BDFF7C 0%, #5AFF70 39.63%, #00E11E 100%);
     border: 2px solid #FFFFFF;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.4);
     border-radius: 19px;
-
     text-align: center;
-    padding: 7px 7px;
-
-    margin: auto;
 }
 

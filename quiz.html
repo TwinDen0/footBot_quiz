@@ -9,49 +9,61 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/normalize.min.css">
 
     <link rel="stylesheet" href="styles/style.css" />
-	<link rel="stylesheet" href="styles/create_club.css" />
+	<link rel="stylesheet" href="styles/quiz.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="timer">90</div>
-        <div class="match">36-й тур
-            <div class="teams">
-
-                <div class="logo_team_1"></div>
-                <div class="blank_team_1">
-    
-                </div>
-                <div class="blank_draw">
-    
-                </div>
-                <div class="blank_team_2">
-    
-                </div>
-                <div class="logo_team_2"></div>
-
+    <div class="background">
+        <div class="container">
+            <div class="timer">
+                <h2 class="text_timer">40</h2>
             </div>
-            <div class="strip_match"></div>
-        </div>
-        <div class="blank_question">
-            <div class="foto_question"></div>
-            <div class="text_question"></div>
-            <div class="answers">
-                <div class="answer">вариант ответа 1</div>
-                <div class="answer">вариант ответа 2</div>
-                <div class="answer">вариант ответа 3</div>
-                <div class="answer">вариант ответа 4</div>
+            <div class="match">36-й тур
+                <div class="teams">
+    
+                    <div class="logo_team" style="background-image: url(../images/logo/logo_1.webp);"></div>
+                    <div class="blank_team">
+                        <h2 class="numb_team">П1</h2>
+                        <h3 class="winrate" style="color: #FC1B24;">60%</h2>
+                    </div>
+                    <div class="blank_draw">
+                        <h2 class="draw_h2" style="margin-bottom: 0px; font-size: 11px; color: #4A4058;">Н</h2>
+                        <h3 class="draw_h3" style="font-size: 18px; color: #857799;">10%</h2>
+                    </div>
+                    <div class="blank_team">
+                        <h2 class="numb_team">П2</h2>
+                        <h3 class="winrate" style="color: #7725F3;">30%</h2>
+                    </div>
+                    <div class="logo_team" style="background-image: url(../images/logo/logo_1.webp);"></div>
+    
+                </div>
+                <div class="strip_match">
+                    <div class="stripe" style="width: 60%; background: linear-gradient(180deg, #FC1B24 31.31%, #A70050 102.8%);"></div>
+                    <div class="stripe" style="width: 10%; background: linear-gradient(180deg, #DED7E6 0%, #998AAE 100%);"></div>
+                    <div class="stripe" style="width: 30%; background: linear-gradient(180deg, #46A6FF 41.03%, #2000E7 154.82%);"></div>
+                </div>
             </div>
-        </div>
-        <div class="counter">
-            <div class="round_1"></div>
-            <div class="round_2"></div>
-            <div class="round_3"></div>
-            <div class="round_4"></div>
-            <div class="round_5"></div>
+            <div class="blank_question">
+                <div class="foto_question"></div>
+                <div class="text_question"></div>
+                <div class="answers">
+                    <div class="answer">вариант ответа 1</div>
+                    <div class="answer">вариант ответа 2</div>
+                    <div class="answer">вариант ответа 3</div>
+                    <div class="answer">вариант ответа 4</div>
+                </div>
+            </div>
+            <div class="counter">
+                <div class="round_1"></div>
+                <div class="round_2"></div>
+                <div class="round_3"></div>
+                <div class="round_4"></div>
+                <div class="round_5"></div>
+            </div>
         </div>
     </div>
 </body>
