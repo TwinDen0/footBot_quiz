@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
 
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -32,19 +33,31 @@ a {
 }
 
 .container {
+    box-sizing: border-box;
+
+    margin: 0 auto;
+
+    height: 100vh;
     width: 100%;
     max-width: var(--w-container);
-    margin: 0 auto;
-    box-sizing: border-box;
     
-    height: 100vh;
 }
 
 .btn_standart {
     display: block;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 50px;
     
     width: 100%;
     max-width: 190px;
+
+    background-color: #FFFFFF;
+    border: 1.55391px solid #EFEFEF;
+    box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -53,16 +66,28 @@ a {
     text-align: center;
 
     color: #393939;
+}
 
+
+.block-choose {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    padding: 8px;
+
+    width: 100%;
+    height: auto;
 
     background-color: #FFFFFF;
-    border: 1.55391px solid #EFEFEF;
-    box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.9);
+    border-radius: 18px;
 
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
     text-align: center;
-    padding: 15px 50px;
 
-    margin: auto;
-    margin-bottom: 10px;
+    color: #393939;
 }
