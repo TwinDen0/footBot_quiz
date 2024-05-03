@@ -3,12 +3,12 @@
 
     width: 100vw;
 
-    background-image: url(../images/fon_create_club.jpg);
+    background-image: url(../images/fon_quiz.jpg);
     background-attachment: fixed;
-    background-position: center top -57vw;
+    background-position: center top -12vw;
     background-color: #51298A;
     background-repeat: no-repeat;
-    background-size: 160%;
+    background-size: 70%;
 
     z-index: -2;
 }
