@@ -8,7 +8,7 @@
     background-position: center top -12vw;
     background-color: #51298A;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 125%;
 
     z-index: -2;
 }
@@ -58,7 +58,7 @@
 }
 
 .match {
-    margin-top: -5px;
+    margin-top: -10px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -102,8 +102,6 @@
 .logo_team {
     height: 60px;
     width: 60px;
-
-    background-image: url(../images/logo/logo_1.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -172,7 +170,7 @@
 }
 
 .blanks_question > div {
-    margin-bottom: -10px; /* наезжание на 20px между блоками */
+    margin-bottom: -10px;
 }
 
 .blank_question {
@@ -198,8 +196,8 @@
 .foto_question {
     margin: auto;
 
-    height: 220px;
-    width: 220px;
+    height: 240px;
+    width: 240px;
 
     background-image: url(../images/question_img/easy_1.jpg);
     background-position: center;
@@ -215,7 +213,7 @@
     align-items: center;
     margin: 5px auto 0 auto;
 
-    height: 60px;
+    height: 55px;
     width: 90%;
 
     font-family: 'Roboto';
@@ -236,7 +234,7 @@
 
     margin: auto;
     margin-top: 7px;
-    padding: 12px 0;
+    padding: 10px 0;
     padding-left: 15px;
 
     width: 210px;
@@ -262,7 +260,7 @@
 
     margin: auto;
     margin-top: 7px;
-    padding: 12px 0;
+    padding: 10px 0;
     padding-left: 15px;
 
     width: 210px;
@@ -304,7 +302,7 @@
 
     margin: auto;
     margin-top: 7px;
-    padding: 12px 0;
+    padding: 10px 0;
     padding-left: 15px;
 
     width: 210px;
