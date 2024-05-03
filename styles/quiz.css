@@ -279,7 +279,7 @@
     font-size: 15px;
     text-align: center;
 
-    color: #393939;
+    color: #388131;
 }
 
 .answer_true::after {
@@ -320,7 +320,7 @@
     font-size: 15px;
     text-align: center;
 
-    color: #393939;
+    color: #8f2333;
 }
 
 .answer_lose::after {
