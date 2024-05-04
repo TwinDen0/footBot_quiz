@@ -3,12 +3,14 @@
 
     width: 100vw;
 
-    background-image: url(../images/fon_create_club.jpg);
     background-attachment: fixed;
-    background-position: center top -30vw;
+    background-image: url(../images/fon_create_club.jpg);
+    background-position: center top -250px;
     background-color: #51298A;
     background-repeat: no-repeat;
-    background-size: 160%;
+    background-size: 730px;
+
+    z-index: -2;
 }
 
 .logo {
@@ -37,32 +39,12 @@
     color: #FFFFFF;
 }
 
-.block_input {
-    display: flex;
-    flex-direction: row;
-}
-
-.block_input::after {
-    content: "";
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin-top: 5px;
-    background-image: url(../images/pen_white.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
 .input_ {
     display: flex;
     align-items: center;
-    gap: 4px;
 
     margin-top: 10px;
-    margin-left: 12%;
-
+    margin: auto;
     width: 70%;
 
     font-family: "Roboto Condensed", sans-serif;

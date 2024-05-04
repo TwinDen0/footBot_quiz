@@ -1,14 +1,15 @@
 .background {
     width: 100vw;
 
-    background-image: url(../images/fon_create_club.jpg);
     background-attachment: fixed;
-    background-position: center top vw;
+    background-image: url(../images/fon_create_club.jpg);
+    background-position: center top -263px;
     background-color: #51298A;
     background-repeat: no-repeat;
-    background-size: 160%;
-}
+    background-size: 730px;
 
+    z-index: -2;
+}
 
 .text_result_match {
     margin: auto;
