@@ -9,8 +9,7 @@
 }
 
 html, body{
-    height: 100vh;
-    overflow-y: hidden;
+    height: auto;
 }
 
 body {

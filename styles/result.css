@@ -1,11 +1,9 @@
 .background {
-    padding-top: 30px;
-
     width: 100vw;
 
     background-image: url(../images/fon_create_club.jpg);
     background-attachment: fixed;
-    background-position: center top -30vw;
+    background-position: center top vw;
     background-color: #51298A;
     background-repeat: no-repeat;
     background-size: 160%;
