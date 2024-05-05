@@ -95,18 +95,17 @@
 	crossorigin="anonymous"></script>
 
 	<script>
-		let tg = window.Telegram.WebApp;
+		//let tg = window.Telegram.WebApp;
 		//let done = document.getElementById("done");
-		tg.expand();
+		//tg.expand();
 
 		//document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
 		let data = tg.initDataUnsafe.user.username;
-		console.log('Привет, мир!');
 		$.ajax({
 			url:'foo.php',
 			type:'POST',
 			data:{
-				'data': 'SSSSSS'
+				'data': data
 			},
 			success:function(response){
 				document.getElementById("club-name").textContent = data;
