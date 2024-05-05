@@ -41,7 +41,6 @@
         //tg.expand();
 
         //document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
-
         let data = "mama";
 
         $.ajax({
@@ -51,7 +50,7 @@
             data:{
                 data: data
             },success:function(){
-                $('result').text('Data yes.');
+                $('p.out').text('Data yes.');
             }
         })
     </script>
