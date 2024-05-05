@@ -1,3 +1,7 @@
+body {
+    user-select: auto;
+}
+
 .background {
     padding-top: 30px;
 
