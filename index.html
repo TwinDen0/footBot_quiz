@@ -98,9 +98,11 @@
 		let tg = window.Telegram.WebApp;
 		//let done = document.getElementById("done");
 		tg.expand();
+		
 		document.getElementById("club-name").value = "AAAAA";
-		document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
+		
 		let data = tg.initDataUnsafe.user.username;
+		
 		$.ajax({
 			url:'foo.php',
 			type:'POST',
