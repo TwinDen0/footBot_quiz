@@ -13,9 +13,6 @@
     }
 
     $text = "aaaaa";
-    if(isset($_POST['data'])){
-        $text = mysqli_real_escape_string($link, $_POST['data']); // экранирование данных перед использованием в запросе
-    }
 
     $sql = "INSERT INTO users (name, phone, info) VALUES ('$text', 121, 'aaaa')"; // Убрано поле id и значение NULL
     if ($result = mysqli_query($link, $sql)) {
