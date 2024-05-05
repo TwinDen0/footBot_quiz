@@ -1,6 +1,6 @@
 <?php
+$text = "aaaaa";
+$text = $_POST['data'];
 
-$arr['data'] = $_POST['data'];
-
-echo json_encode($arr);
+error_log($text);
 ?>
