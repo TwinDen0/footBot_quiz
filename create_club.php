@@ -35,7 +35,7 @@
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
 
-    <script>
+    <script type="text/javascript">
         //let tg = window.Telegram.WebApp;
         //let done = document.getElementById("done");
         //tg.expand();
