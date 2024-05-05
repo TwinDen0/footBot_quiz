@@ -28,6 +28,7 @@
 			
 			<div class="club-main" id="club-main">
 				<h2 class="club-name" id="club-name">Манчестерggggg</h2>
+				<h2 class="club-name" id="club-name2">Манчестерggggg</h2>
 
 				<h3 class="all-win">Всего побед:  %wins%</h3>
 				<h3 class="all-lose">Поражений:  %lose%</h3>
@@ -97,7 +98,7 @@
 		let tg = window.Telegram.WebApp;
 		//let done = document.getElementById("done");
 		tg.expand();
-
+		document.getElementById("club-name").value = "AAAAA";
 		document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
 		let data = tg.initDataUnsafe.user.username;
 		$.ajax({
@@ -107,10 +108,10 @@
 				'data': data
 			},
 			success:function(response){
-				document.getElementById("club-name").textContent = data;
+				document.getElementById("club-name2").value = "ЕЕЕС";
 			},
 			error:function(xhr, status, error){
-				console.log('Ошибка при отправке запроса: ' + error);
+				document.getElementById("club-name2").value = "НОУ";
 			}
 		})
 	</script>
