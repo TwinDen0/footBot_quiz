@@ -19,7 +19,7 @@
     <div class="background">
         <div class="container">
             <div class="logo"></div>
-            <div class="text-input">Введи название клуба:</div>
+            <div class="text-input" placeholder="Название клуба" id="club_name">Введи название клуба:</div>
             <input type="text" class="input_" maxlength="20">
             <div class="block-choose">Выбери эмблему:
                 <a href="" class="btn_standart">Существующую</a>
@@ -28,5 +28,12 @@
             <a href="" class="done">Готово!</a>
         </div>
     </div>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        let club_name = document.getElementById("club_name");
+
+        document.getElementsById("club_name").value = tg.initDataUnsafe.username;
+    </script>
 </body>
 </html>
