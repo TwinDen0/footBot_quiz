@@ -26,10 +26,15 @@
                 <a href="" class="btn_standart">Создать свою</a>
             </div>
             <a href="" class="done" id="done">Готово!</a>
-            <div id="result"></div>
+            <div id="result">PPP</div>
         </div>
     </div>
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+
     <script>
         let tg = window.Telegram.WebApp;
         let done = document.getElementById("done");
@@ -37,16 +42,18 @@
 
         document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
 
-        var data = tg.initDataUnsafe.user.username;
-        var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'your-php-script.php', true);
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            document.getElementById('result').innerHTML = xhr.responseText;
-        }
-    };
-    xhr.send('data=' + data);
+        let data = tg.initDataUnsafe.user.username;
+
+        $.ajax({
+            url:'foo.php',
+            type:'POST',
+            dataType:'json',
+            data:{
+                data: data
+            },success:function(){
+                $('result').text('Data yes.');
+            }
+        })
     </script>
 </body>
 </html>
