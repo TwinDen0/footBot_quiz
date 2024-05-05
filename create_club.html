@@ -31,9 +31,13 @@
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         let tg = window.Telegram.WebApp;
-        let club_name = document.getElementById("club_name");
+        let done = document.getElementById("done");
+        tg.expand();
 
-        document.getElementsById("club_name").value = tg.initDataUnsafe.user.username;
+        done.addEventListener("click", () => {
+            document.getElementById("club_name").value = tg.initDataUnsafe.user.username;
+        });
+
     </script>
 </body>
 </html>
