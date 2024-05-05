@@ -101,7 +101,7 @@
 		
 		document.getElementById("club-name").textContent = "AAAAA";
 		
-		let data = "denchik";
+		let data = "denchik"; //tg.initDataUnsafe.user.username
 		
 		$.ajax({
 			url:'foo.php',
@@ -113,7 +113,7 @@
 				document.getElementById("club-name2").textContent = "ЕЕЕС";
 			},
 			error:function(xhr, status, error){
-				document.getElementById("club-name2").textContent = "НОУ";
+				document.getElementById("club-name2").textContent = error;
 			}
 		})
 	</script>
