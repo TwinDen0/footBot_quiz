@@ -99,7 +99,7 @@
 		//let done = document.getElementById("done");
 		tg.expand();
 		
-		document.getElementById("club-name").value = "AAAAA";
+		document.getElementById("club-name").textContent = "AAAAA";
 		
 		let data = "denchik";
 		
@@ -110,10 +110,10 @@
 				'data': data
 			},
 			success:function(response){
-				document.getElementById("club-name2").value = "ЕЕЕС";
+				document.getElementById("club-name2").textContent = "ЕЕЕС";
 			},
 			error:function(xhr, status, error){
-				document.getElementById("club-name2").value = "НОУ";
+				document.getElementById("club-name2").textContent = "НОУ";
 			}
 		})
 	</script>
