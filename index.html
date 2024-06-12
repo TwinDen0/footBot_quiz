@@ -107,21 +107,8 @@
 		
 		document.getElementById("club-name").textContent = "AAAAA";
 		
-		let data = "denchik"; //tg.initDataUnsafe.user.username
-		
-		$.ajax({
-			url:'foo.php',
-			type:'POST',
-			data:{
-				'data': data
-			},
-			success:function(response){
-				document.getElementById("club-name2").textContent = "ЕЕЕС";
-			},
-			error:function(xhr, status, error){
-				document.getElementById("club-name2").textContent = error;
-			}
-		})
+		let data = tg.initDataUnsafe.user.username;
+
 	</script>
 </body>
 </html>
